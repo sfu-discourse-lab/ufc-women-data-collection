@@ -7,38 +7,9 @@ The process is split up into separate Jupyter notebook files to run in sequence.
 
 ## Setting up your environment
 
-### Python virtual environment (`venv`)
-
-I recommend using `venv` to manage your environment so that you don't have to deal with installing packages to your global Python environment.
-You can follow the instructions for setting up and activating `venv` on [their website](https://docs.python.org/3/library/venv.html), but I will also cover them here.
-
-#### Initializing `venv`
-
-`venv` should already come with your Python installation, so you do not have to install it separately. To initialize it, use the terminal navigate to the directory where your project is installed; then run the command `python -m venv ./<directory to initialize venv in>`. I recommend initializing it in a directory called `venv` for easy access, so the command would be `python -m venv ./venv`.
-
-#### Activating `venv`
-
-Now you need to activate `venv`. The command differs for different operating systems, so these are all the different ones (note that you don't need to type `python` for any of these, since they are terminal scripts created by `venv`, not Python commands):
-
-Mac/Linux: `source ./<venv directory>/Scripts/activate`
-
-Windows using Command Prompt terminal: `<venv directory>\Scripts\activate.bat`
-
-Windows using Powershell: `./<venv directory>/Scripts/Activate.ps1`
-
-If the Powershell command doesn't work or shows an error, try running `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` first.
-
-You'll know that it worked if you see a little text showing `(venv)` beside your commands.
-
-#### Deactivating `venv`
-
-If you need to deactivate `venv`, you can simply type `deactivate` in the terminal.
-
 ### Installing packages
 
-Regardless of whether or not you are using `venv`, you can now install packages. This is fairly simple: run the command `pip install -r requirements.txt`.
-
-You are now ready to download the data.
+There is a notebook called 00_install_dependencies.ipynb which you can run to install all the dependencies you need for this project.
 
 ## Running the pipeline
 
