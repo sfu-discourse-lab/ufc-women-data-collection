@@ -1,172 +1,443 @@
 name,gender
-Rafael Natal,man
-Taila Santos,woman
-Deiveson Figueiredo,man
-Sean Strickland,man
-Rashad Evans,man
-Benoit Saint Denis,man
-Chuck Liddell,man
-Forrest Griffin,man
-Val Woodburn,man
-Andreas Michailidis,man
-Neil Magny,man
-Thiago Moises,man
-Drakkar Klose,man
-Sam Alvey,man
-Derek Brunson,man
-Maycee Barber,woman
-Louis Smolka,man
-Jacare Souza,man
-Jared Cannonier,man
-Andrea Lee,woman
-Miranda Maverick,woman
-Nassourdine Imavov,man
-Ronda Rousey,woman
-Max Holloway,man
-Tracy Cortez,woman
-Marcus Brimage,man
-Marion Reneau,woman
-Dricus Du Plessis,man
-Song Yadong,man
 Stephan Bonnar,man
-Rob Font,man
-Mark Hunt,man
-Walt Harris,man
-Michael Bisping,man
-Joseph Benavidez,man
-Kamaru Usman,man
-Rose Namajunas,woman
-Tatsuro Taira,man
-Chris Clements,man
-Justin Gaethje,man
-Cory Sandhagen,man
-Sheldon Westcott,man
-Renato Moicano,man
-Jon Jones,man
-Manel Kape,man
-Pedro Munhoz,man
-Kevin Holland,man
-Katlyn Cerminara,woman
+Ronda Rousey,woman
 Clint Hester,man
-Amanda Ribas,woman
-Jake Shields,man
-Khamzat Chimaev,man
-Alexandre Pantoja,man
-Ilia Topuria,man
-Frank Mir,man
-Kai Asakura,man
-Pete Sell,man
-Chris Leben,man
-Christos Giagos,man
-Valentina Shevchenko,woman
-Dominick Cruz,man
-Dan Hooker,man
-Zhang Weili,woman
-Brandon Moreno,man
-Joel Alvarez,man
-Ken Shamrock,man
-Alexa Grasso,woman
-Viviane Araujo,woman
-Ian McCall,man
-Raquel Pennington,woman
-Merab Dvalishvili,man
-Jasmine Jasudavicius,woman
-Dustin Poirier,man
-Antonio Rogerio Nogueira,man
-Jonathan Martinez,man
-Kayla Harrison,woman
-Holly Holm,woman
-Michael Chandler,man
-Erin Blanchfield,woman
+Ketlen Vieira,woman
+Tatiana Suarez,woman
+Andreas Michailidis,man
+Jumabieke Tuerxun,man
+Neil Magny,man
+Derek Brunson,man
+Rafael Fiziev,man
+Pedro Munhoz,man
+Matt Serra,man
 Jose Aldo,man
-Aiemann Zahabi,man
-Benson Henderson,man
-Chris Weidman,man
-Mario Bautista,man
+Dave Menne,man
+Renato Moicano,man
+Ken Shamrock,man
+Sheldon Westcott,man
+Cain Velasquez,man
+Ian McCall,man
+Zhang Weili,woman
 Alex Pereira,man
 Mayra Bueno Silva,woman
-Charles Oliveira,man
-Adam Fugitt,man
-Lyoto Machida,man
-Matt Serra,man
-Rafael Fiziev,man
-Bo Nickal,man
-Robert Whittaker,man
-Manon Fiorot,woman
+Michael Bisping,man
+Rose Namajunas,woman
+Deiveson Figueiredo,man
 Ryan Jimmo,man
-Umar Nurmagomedov,man
-Rich Franklin,man
-Ricky Simon,man
-Jalin Turner,man
-Sergio Pettis,man
-Glover Teixeira,man
-Amanda Nunes,woman
-John Makdessi,man
-Jeremy Stephens,man
-Jake Matthews,man
-Randy Couture,man
-Manuel Torres,man
-Daniel Cormier,man
-Islam Makhachev,man
-Kelvin Gastelum,man
-Dave Menne,man
-Arman Tsarukyan,man
-Anthony Perosh,man
-Abus Magomedov,man
-Brandon Royval,man
-Jessica Andrade,woman
-Nate Quarry,man
-Gil Castillo,man
-Leon Edwards,man
-Anderson Silva,man
-Ignacio Bahamondes,man
-Israel Adesanya,man
-Michel Pereira,man
-Natalia Silva,woman
-Minotauro Nogueira,man
-Cody Garbrandt,man
-Jack Della Maddalena,man
-Dricus du Plessis,man
-Kyoji Horiguchi,man
-Steve Erceg,man
-Sean Brady,man
-Jumabieke Tuerxun,man
-Petr Yan,man
-Brad Tavares,man
-Marlon Vera,man
-Jamahal Hill,man
-Vladimir Matyushenko,man
-Gilbert Burns,man
-Magomed Ankalaev,man
-Ketlen Vieira,woman
-Gerald Meerschaert,man
-Michael Morales,man
-Dooho Choi,man
-Elias Theodorou,man
-Alexander Volkanovski,man
-Paul Craig,man
-Belal Muhammad,man
-Cub Swanson,man
-Yoel Romero,man
-Mark Hominick,man
-Shonie Carter,man
-TJ Dillashaw,man
-Joaquin Buckley,man
-Anthony Smith,man
-Al Iaquinta,man
-Dione Barbosa,woman
-Alexander Gustafsson,man
-Jason Brilz,man
-Luke Rockhold,man
-Demetrious Johnson,man
-Javid Basharat,man
-Pablo Garza,man
-Ross Pearson,man
-Cain Velasquez,man
 Tito Ortiz,man
-Tatiana Suarez,woman
-Irene Aldana,woman
-Jiri Prochazka,man
+Ilia Topuria,man
+Gilbert Burns,man
+Sean Strickland,man
+Islam Makhachev,man
+Max Holloway,man
+Arman Tsarukyan,man
+Chris Leben,man
+Robert Whittaker,man
+Israel Adesanya,man
+Michael Chandler,man
+Antonio Rogerio Nogueira,man
+Jalin Turner,man
+Yoel Romero,man
+Tatsuro Taira,man
+Michel Pereira,man
+Amanda Ribas,woman
+Gil Castillo,man
+Chris Weidman,man
+Paul Craig,man
+Joseph Benavidez,man
+Elias Theodorou,man
+Kelvin Gastelum,man
+Daniel Cormier,man
+Manon Fiorot,woman
+Dione Barbosa,woman
+Michael Morales,man
+Jasmine Jasudavicius,woman
+Ignacio Bahamondes,man
+Colby Covington,man
+Tracy Cortez,woman
+Dominick Cruz,man
+Rashad Evans,man
+Sean Brady,man
+Anthony Perosh,man
+Shonie Carter,man
+Maycee Barber,woman
+Miranda Maverick,woman
+Glover Teixeira,man
+Song Yadong,man
+Dricus Du Plessis,man
+Rafael Natal,man
+Justin Gaethje,man
+Rob Font,man
+Walt Harris,man
+Mario Bautista,man
+Alexa Grasso,woman
+Jessica Andrade,woman
 Mateusz Gamrot,man
-Tristan Connelly,man
+Marion Reneau,woman
+Marlon Vera,man
+Sergio Pettis,man
+Nassourdine Imavov,man
+Irene Aldana,woman
+Nate Quarry,man
+Jack Della Maddalena,man
+Andrea Lee,woman
+Jamahal Hill,man
+Ross Pearson,man
+John Makdessi,man
+Vladimir Matyushenko,man
 Lodune Sincaid,man
+Umar Nurmagomedov,man
+Dan Hooker,man
+Soa Palelei,man
+Marcus Brimage,man
+Jared Cannonier,man
+Rich Franklin,man
+Al Iaquinta,man
+Uriah Hall,man
+Joaquin Buckley,man
+Bo Nickal,man
+Khamzat Chimaev,man
+Katlyn Cerminara,woman
+Sam Alvey,man
+Jake Matthews,man
+Jacare Souza,man
+Drakkar Klose,man
+Kayla Harrison,woman
+Jonathan Martinez,man
+Petr Yan,man
+Forrest Griffin,man
+Kyoji Horiguchi,man
+Merab Dvalishvili,man
+Cory Sandhagen,man
+Raquel Pennington,woman
+Jake Shields,man
+Brandon Moreno,man
+Brad Tavares,man
+Leon Edwards,man
+Steve Erceg,man
+TJ Dillashaw,man
+Manel Kape,man
+Charles Oliveira,man
+Belal Muhammad,man
+Cody Garbrandt,man
+Kai Asakura,man
+Brandon Royval,man
+Alexander Volkanovski,man
+Manuel Torres,man
+Anderson Silva,man
+Kevin Holland,man
+Christos Giagos,man
+Taila Santos,woman
+Jiri Prochazka,man
+Valentina Shevchenko,woman
+Pablo Garza,man
+Alexandre Pantoja,man
+Lyoto Machida,man
+Dustin Poirier,man
+Mark Hominick,man
+Erin Blanchfield,woman
+Randy Couture,man
+Jason Brilz,man
+Natalia Silva,woman
+Louis Smolka,man
+Chris Clements,man
+Gerald Meerschaert,man
+Luke Rockhold,man
+Pete Sell,man
+Dricus du Plessis,man
+Javid Basharat,man
+Ricky Simon,man
+Kamaru Usman,man
+Stephan,man
+Bonnar,man
+Ronda,woman
+Rousey,woman
+Clint,man
+Hester,man
+Ketlen,woman
+Vieira,woman
+Tatiana,woman
+Suarez,woman
+Andreas,man
+Michailidis,man
+Jumabieke,man
+Tuerxun,man
+Neil,man
+Magny,man
+Derek,man
+Brunson,man
+Rafael,man
+Fiziev,man
+Pedro,man
+Munhoz,man
+Matt,man
+Serra,man
+Jose,man
+Aldo,man
+Dave,man
+Menne,man
+Renato,man
+Moicano,man
+Ken,man
+Shamrock,man
+Sheldon,man
+Westcott,man
+Cain,man
+Velasquez,man
+Ian,man
+McCall,man
+Zhang,woman
+Weili,woman
+Alex,man
+Pereira,man
+Mayra,woman
+Bueno,woman
+Silva,woman
+Michael,man
+Bisping,man
+Rose,woman
+Namajunas,woman
+Deiveson,man
+Figueiredo,man
+Ryan,man
+Jimmo,man
+Tito,man
+Ortiz,man
+Ilia,man
+Topuria,man
+Gilbert,man
+Burns,man
+Sean,man
+Strickland,man
+Islam,man
+Makhachev,man
+Max,man
+Holloway,man
+Arman,man
+Tsarukyan,man
+Chris,man
+Leben,man
+Robert,man
+Whittaker,man
+Israel,man
+Adesanya,man
+Chandler,man
+Antonio,man
+Rogerio,man
+Nogueira,man
+Jalin,man
+Turner,man
+Yoel,man
+Romero,man
+Tatsuro,man
+Taira,man
+Michel,man
+Amanda,woman
+Ribas,woman
+Gil,man
+Castillo,man
+Weidman,man
+Paul,man
+Craig,man
+Joseph,man
+Benavidez,man
+Elias,man
+Theodorou,man
+Kelvin,man
+Gastelum,man
+Daniel,man
+Cormier,man
+Manon,woman
+Fiorot,woman
+Dione,woman
+Barbosa,woman
+Morales,man
+Jasmine,woman
+Jasudavicius,woman
+Ignacio,man
+Bahamondes,man
+Colby,man
+Covington,man
+Tracy,woman
+Cortez,woman
+Dominick,man
+Cruz,man
+Rashad,man
+Evans,man
+Brady,man
+Anthony,man
+Perosh,man
+Shonie,man
+Carter,man
+Maycee,woman
+Barber,woman
+Miranda,woman
+Maverick,woman
+Glover,man
+Teixeira,man
+Song,man
+Yadong,man
+Dricus,man
+Du,man
+Plessis,man
+Natal,man
+Justin,man
+Gaethje,man
+Rob,man
+Font,man
+Walt,man
+Harris,man
+Mario,man
+Bautista,man
+Alexa,woman
+Grasso,woman
+Jessica,woman
+Andrade,woman
+Mateusz,man
+Gamrot,man
+Marion,woman
+Reneau,woman
+Marlon,man
+Vera,man
+Sergio,man
+Pettis,man
+Nassourdine,man
+Imavov,man
+Irene,woman
+Aldana,woman
+Nate,man
+Quarry,man
+Jack,man
+Della,man
+Maddalena,man
+Andrea,woman
+Lee,woman
+Jamahal,man
+Hill,man
+Ross,man
+Pearson,man
+John,man
+Makdessi,man
+Vladimir,man
+Matyushenko,man
+Lodune,man
+Sincaid,man
+Umar,man
+Nurmagomedov,man
+Dan,man
+Hooker,man
+Soa,man
+Palelei,man
+Marcus,man
+Brimage,man
+Jared,man
+Cannonier,man
+Rich,man
+Franklin,man
+Al,man
+Iaquinta,man
+Uriah,man
+Hall,man
+Joaquin,man
+Buckley,man
+Bo,man
+Nickal,man
+Khamzat,man
+Chimaev,man
+Katlyn,woman
+Cerminara,woman
+Sam,man
+Alvey,man
+Jake,man
+Matthews,man
+Jacare,man
+Souza,man
+Drakkar,man
+Klose,man
+Kayla,woman
+Harrison,woman
+Jonathan,man
+Martinez,man
+Petr,man
+Yan,man
+Forrest,man
+Griffin,man
+Kyoji,man
+Horiguchi,man
+Merab,man
+Dvalishvili,man
+Cory,man
+Sandhagen,man
+Raquel,woman
+Pennington,woman
+Shields,man
+Brandon,man
+Moreno,man
+Brad,man
+Tavares,man
+Leon,man
+Edwards,man
+Steve,man
+Erceg,man
+TJ,man
+Dillashaw,man
+Manel,man
+Kape,man
+Charles,man
+Oliveira,man
+Belal,man
+Muhammad,man
+Cody,man
+Garbrandt,man
+Kai,man
+Asakura,man
+Royval,man
+Alexander,man
+Volkanovski,man
+Manuel,man
+Torres,man
+Anderson,man
+Kevin,man
+Holland,man
+Christos,man
+Giagos,man
+Taila,woman
+Santos,woman
+Jiri,man
+Prochazka,man
+Valentina,woman
+Shevchenko,woman
+Pablo,man
+Garza,man
+Alexandre,man
+Pantoja,man
+Lyoto,man
+Machida,man
+Dustin,man
+Poirier,man
+Mark,man
+Hominick,man
+Erin,woman
+Blanchfield,woman
+Randy,man
+Couture,man
+Jason,man
+Brilz,man
+Natalia,woman
+Louis,man
+Smolka,man
+Clements,man
+Gerald,man
+Meerschaert,man
+Luke,man
+Rockhold,man
+Pete,man
+Sell,man
+du,man
+Javid,man
+Basharat,man
+Ricky,man
+Simon,man
+Kamaru,man
+Usman,man

@@ -3,7 +3,7 @@
 This project aims to analyze the differences between the way women and men fighters are talked about in news articles published on the UFC website.
 This specific repository focuses on data collection and cleaning.
 
-The process is split up into separate Jupyter notebook files to run in sequence. Python 3.12 is recommended.
+The process is split up into separate Jupyter notebook files to run in sequence. Python 3.11 is recommended.
 
 ## Setting up your environment
 
