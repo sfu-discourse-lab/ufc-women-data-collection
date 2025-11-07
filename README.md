@@ -74,3 +74,22 @@ If you also want to download the images from the special photo gallery pages, th
 Open the file `05_download_images_from_galleries.ipynb` in a Jupyter notebook. Find the variable `filename` and change it to the name of the `article_links_<date and time>.csv` file from step 1.
 
 When you finish running this notebook, it will also download images to subdirectories within the `./images` directory.
+
+### 6. Separating gendered paragraphs
+
+To split up articles into paragraphs that talk about people of different genders, use the notebook `06_separate_gendered_paragraphs.ipynb`.
+
+This will get all of the article content files and split up their paragraphs into 4 different types:
+
+- Men: paragraphs that are primarily about men
+- Women: paragraphs that are primarily about women
+- Equal: paragraphs that have equal mentions of men and women
+- Genderless: paragraphs that have no mentions of men or women
+
+These separated paragraphs are saved into subfolders within the `./articles` folder, with the folder name being the name of the original text file.
+
+It does this by finding all the names in each article, scraping their UFC fighter profile, and getting from the profile whether they're a male or female fighter.
+
+Then it counts the number of mentions of men and women names, pronouns, and other coreferences using the `coreferee` library.
+
+If there are more women than men mentioned, it is a woman paragraph, and vice versa.
