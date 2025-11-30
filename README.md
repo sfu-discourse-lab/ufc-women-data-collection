@@ -93,3 +93,10 @@ It does this by finding all the names in each article, scraping their UFC fighte
 Then it counts the number of mentions of men and women names, pronouns, and other coreferences using the `coreferee` library.
 
 If there are more women than men mentioned, it is a woman paragraph, and vice versa.
+
+### 7. Organizing the corpus
+
+The previous step creates a subfolder for each article, and creates `equal.txt`, `genderless.txt`, `man.txt`, and `woman.txt` for each article.
+
+This step can sort of reverse the hierarchy where there are just 4 folders within a `corpus` folder representing each separation,
+and separate txt files within the folders for each article.
