@@ -100,3 +100,5 @@ The previous step creates a subfolder for each article, and creates `equal.txt`,
 
 This step can sort of reverse the hierarchy where there are just 4 folders within a `corpus` folder representing each separation,
 and separate txt files within the folders for each article.
+
+# TODO: write about sample creation
