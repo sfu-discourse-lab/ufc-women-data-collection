@@ -101,4 +101,22 @@ The previous step creates a subfolder for each article, and creates `equal.txt`,
 This step can sort of reverse the hierarchy where there are just 4 folders within a `corpus` folder representing each separation,
 and separate txt files within the folders for each article.
 
-# TODO: write about sample creation
+### 8. Creating a sample annotation corpus
+
+This step creates a sample corpus for testing annotation, containing 5% of the total corpus articles. Choosing which articles go into the sample corpus is not done by random, but it follows specific criteria.
+
+First we take articles that are within one standard deviation of the average (median) number of tokens. This makes sure that the articles in the sample corpus are not too long or too short, and represent the "average" article one may encounter in the overall corpus, as this is meant to be a representative sample.
+
+Then for the man- and woman-focused sample articles, the ones with the highest proportion of man- and woman-focused paragraphs (respectively) to total number of paragraphs are the ones that get chosen for the sample corpus. This is also the case with the genderless articles.
+
+For articles whose paragraphs are equally man- and woman-focused, the process is exactly the same. However, note that most of the paragraphs in most of the articles focus on one person (usually a man), so there are few instances of truly equal paragraphs. Therefore, even the most "equal" articles have a moderate gender preference, so they are not truly "equal".
+
+Finally, we look for the most "balanced" articles. _Balanced_ here means that there is an equal (or as close to as possible) number of man-focused, woman-focused, equal, and genderless paragraphs. To try to achieve this balance, we first take out any "Athlete" type articles, which are articles that highlight one particular fighter, and are therefore extremely focused on one gender. Then, we calculate three measures that indicate balance in our definition, applied to the proportion of man paragraphs, proportion of woman paragraphs, proportion of equal paragraphs, and proportion of genderless paragraphs per article:
+
+1. **Entropy**: this measures uncertainty in a probability distribution, or in our case, balance between input values. Higher entropy means more balanced and lower entropy means less balanced. So we try to find articles with the highest entropy.
+2. **Variance**: this is another probability-related term that measures a variable's "distance" from some target value. In our case, we measure variance from the target value of 0.25, which would mean perfectly balanced between four variables. Lower variance means more balanced and higher variance means less balanced. So we try to find articles with the lowest variance.
+3. **Absolute difference from mean number of tokens**: this one is simple, just calculating the absolute value of the difference of each article's number of tokens from the mean number of tokens. Higher token difference is further from the mean and lower token difference is closer to the mean. Here, we actually try to achieve higher token difference because this would allow for more varied sample articles with different lengths and potentially different styles due to this variance. However, this is still fine because, as mentioned previously, we only consider articles that are within one standard deviation of the overall corpus article length. So this will not yield any insane differences in article lengths, but some slight variation to get a more diverse sample distribution. Since we don't care about this measure as much as the previous two, we multiply it by a factor that reduces its imapct in the balance score calculation.
+
+We take the top articles from each of these 5 categories (man, woman, equal, genderless, balanced) and put them in their respective folders (`sample_corpus/mostly_man`, `sample_corpus/mostly_woman`, `sample_corpus/mostly_equal`, `sample_corpus/mostly_genderless`, `sample_corpus/balanced`).
+
+Then, we create a backup sample corpus with the same structure and criteria, stored in the folder `sample_corpus_backup`. Note that the articles in here will be less gendered or less balanced because they are basically the "leftovers" from the original sample corpus. This one is also 5% of the full corpus.
