@@ -129,3 +129,9 @@ Polarity is also separated into only positive examples and only negative example
 ### 10. Calculating paragraph vocabulary counts
 
 This step counts the number of times certain nouns and adjectives appear in each paragraph, split by subcorpus (man, woman, equal, genderless). Furthermore, it counts the paragraph lengths (number of tokens) and calculates polarity using spaCy. It outputs these stats to `./paragraph_stats.csv`.
+
+### 11. Visualizing attitude in sample corpus
+
+This steps uses manually-annotated attitude data (Affect, Judgement, Appreciation, as well as sentiment) to graph the results.
+The input file is `./Stats_Information_Attitude.xlsx` (manually-annotated sample corpus with Balanced, Woman, Man, Equal, Genderless categories). 
+The outputted graph is `./figures/attitude.png`.
