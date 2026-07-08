@@ -125,3 +125,7 @@ Then, we create a backup sample corpus with the same structure and criteria, sto
 
 This step calculates polarity and subjectivity for the different subcorpora (man, female, equal, genderless, and OVERALL) using spaCy.
 Polarity is also separated into only positive examples and only negative examples to see how extreme each subcorpus gets. It outputs the figures for these calculations to the `figures/` folder.
+
+### 10. Calculating paragraph vocabulary counts
+
+This step counts the number of times certain nouns and adjectives appear in each paragraph, split by subcorpus (man, woman, equal, genderless). Furthermore, it counts the paragraph lengths (number of tokens) and calculates polarity using spaCy. It outputs these stats to `./paragraph_stats.csv`.
