@@ -1,6 +1,6 @@
 # Women in UFC
 
-This project aims to analyze the differences between the way women and men fighters are talked about in news articles published on the UFC website.
+This project aims to analyze the differences between the way women and men fighters are talked about in news articles published on the [UFC website](https://www.ufc.com).
 This specific repository focuses on data collection and cleaning.
 
 The process is split up into separate Jupyter notebook files to run in sequence. Python 3.11 is recommended.
@@ -120,3 +120,8 @@ Finally, we look for the most "balanced" articles. _Balanced_ here means that th
 We take the top articles from each of these 5 categories (man, woman, equal, genderless, balanced) and put them in their respective folders (`sample_corpus/mostly_man`, `sample_corpus/mostly_woman`, `sample_corpus/mostly_equal`, `sample_corpus/mostly_genderless`, `sample_corpus/balanced`).
 
 Then, we create a backup sample corpus with the same structure and criteria, stored in the folder `sample_corpus_backup`. Note that the articles in here will be less gendered or less balanced because they are basically the "leftovers" from the original sample corpus. This one is also 5% of the full corpus.
+
+### 9. Calculating and visualizing sentiment
+
+This step calculates polarity and subjectivity for the different subcorpora (man, female, equal, genderless, and OVERALL) using spaCy.
+Polarity is also separated into only positive examples and only negative examples to see how extreme each subcorpus gets. It outputs the figures for these calculations to the `figures/` folder.
